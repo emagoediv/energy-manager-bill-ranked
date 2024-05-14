@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+
+}
+
+html,body {
+    height: 90vh;
+    width: 100vw;
+    background-color: #405EC6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.btn-success {
+    width: 200px;
+    height: 50px;
+    border: 1px solid lightgray;
+    box-shadow: none;
+    background-color: #405EC6;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+
+.btn-success:hover {
+    cursor: pointer;
+    background-color: #1a223d;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+input[type="text"],input[type="password"],input[type="email"]  {
+    width: 400px;
+    height: 25px;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+label {
+    font-size: 1.5rem;
+}
